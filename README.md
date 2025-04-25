@@ -63,4 +63,4 @@ The system is optimized for real-time execution on lightweight and embedded hard
 
 ## Download of Heavy files:
 
-📥 [Download heavy model and related files (633 MB - 52MB Model, others for test videos and outputs with related jupyter notebook )]
+📥 [Download heavy model and related files (633 MB - 52MB Model, others for test videos and outputs with related jupyter notebook )] (https://github.com/RahulM518/CHOLEC-M2CAI/releases/tag/Segmentation_model_tag/GITHUB__OUTPUT.zip)
