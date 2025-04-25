@@ -61,4 +61,6 @@ The system is optimized for real-time execution on lightweight and embedded hard
 
 ---
 
+## Download of Heavy files:
 
+📥 [Download heavy model and related files (633 MB - 52MB Model, others for test videos and outputs with related jupyter notebook )]
