@@ -1,2 +1,64 @@
-# CHOLEC-M2CAI
-Real-time surgical tool and organ segmentation system using YOLOv8 Nano, optimized for EdgeAI deployment.
+# 🧠 Surgical Tool and Organ Segmentation 
+
+---
+
+## 🎯 Aim:
+
+To develop a lightweight, real-time computer vision system that can:
+- Detect surgical tools during procedures
+- Identify and segment anatomical structures such as organs, arteries, and fluids
+- Run efficiently on low-power Edge AI hardware for potential operating room integration or robotic assistance
+
+The system is designed to be practical for intraoperative use, training simulation, or post-surgical analysis.
+
+---
+
+## 📚 Dataset Sources:
+
+The models are trained and evaluated on publicly available surgical video datasets:
+
+1. **CholecSeg8k**  
+   👉 https://www.kaggle.com/datasets/newslab/cholecseg8k  
+   > Annotated laparoscopic cholecystectomy dataset with organ and tool segmentation masks
+
+2. **Stanford Tool Detection Dataset (m2cai16-tool-locations)**  
+   👉 https://ai.stanford.edu/~syyeung/tooldetection.html  
+   > Real-time labeled frames from cholecystectomy procedures for surgical tool detection
+
+Both datasets contain pixel-level or bounding-box annotations, and were adapted into a consistent semantic segmentation format with a 19 (12+7)-class label mapping.
+
+---
+
+## ⚙️ Procedure:
+
+1. **Label Mapping**  
+   - A JSON file defines 19 unique classes (organs, tools, fluids, arteries), each with a distinct RGB color
+
+2. **Data Preprocessing**  
+   - Color masks converted to class-index masks
+   - Normalization, augmentation, resizing for model training
+
+3. **Model Training**  
+   - **YOLOv8 Nano (Segmentation head)** used for real-time detection and semantic segmentation
+   - Both models trained and evaluated separately, with overlays rendered on test video
+
+4. **Video Inference Pipeline**  
+   - Test video frames are processed in real-time
+   - YOLOv8 models run side-by-side on each frame
+   - Output video visualizes predictions from both models for qualitative comparison
+
+---
+
+## 💻 Devices Aimed to Run On:
+
+The system is optimized for real-time execution on lightweight and embedded hardware platforms:
+
+- ⚡ **NVIDIA Jetson Nano**
+- ⚡ **Raspberry Pi 4 (with or without Coral TPU)**
+- ⚡ **Texas Instruments SK-AM62ALP**
+- ⚡ **Microchip PolarFire Icicle Kit**
+- 💻 Regular desktops with GPU (for training and high-res testing)
+
+---
+
+
