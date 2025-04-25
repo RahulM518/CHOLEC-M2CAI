@@ -57,7 +57,7 @@ The system is optimized for real-time execution on lightweight and embedded hard
 - ⚡ **Raspberry Pi 4 (with or without Coral TPU)**
 - ⚡ **Texas Instruments SK-AM62ALP**
 - ⚡ **Microchip PolarFire Icicle Kit**
-- 💻 Regular desktops with GPU (for training and high-res testing)
+- 💻 Regular desktops with GPU (for training and high-res testing) 
 
 ---
 
