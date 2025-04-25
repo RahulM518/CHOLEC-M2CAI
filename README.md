@@ -39,7 +39,8 @@ Both datasets contain pixel-level or bounding-box annotations, and were adapted 
    - Normalization, augmentation, resizing for model training
 
 3. **Model Training**  
-   - **YOLOv8 Nano (Segmentation head)** used for real-time detection and semantic segmentation
+   - **YOLOv8 Nano (Segmentation head)** used for object/ tool detection  (7 tools)
+   - **UNET+MobileNetV2** and **YOLOv8 Nano (Semantic Segmentation)** used for semantic segmentation (12 parts)
    - Both models trained and evaluated separately, with overlays rendered on test video
 
 4. **Video Inference Pipeline**  
@@ -54,7 +55,7 @@ Both datasets contain pixel-level or bounding-box annotations, and were adapted 
 The system is optimized for real-time execution on lightweight and embedded hardware platforms:
 
 - ⚡ **NVIDIA Jetson Nano**
-- ⚡ **Raspberry Pi 4 (with or without Coral TPU)**
+- ⚡ **Raspberry Pi 4 or 5**
 - ⚡ **Texas Instruments SK-AM62ALP**
 - ⚡ **Microchip PolarFire Icicle Kit**
 - 💻 Regular desktops with GPU (for training and high-res testing) 
