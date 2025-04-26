@@ -68,8 +68,8 @@ The system is optimized for real-time execution on lightweight and embedded hard
 
 
 ## Results:
-![Object Detection Tests](![accuracy_objDet](https://github.com/user-attachments/assets/77551d8b-c304-459d-87f2-abb82c724d87))
+![accuracy_objDet](https://github.com/user-attachments/assets/77551d8b-c304-459d-87f2-abb82c724d87)
 
-![Image Segmentation Tests](![seg_perfected](https://github.com/user-attachments/assets/8bef9c6a-4250-4bea-b203-ae9231f50fda))
+![seg_perfected](https://github.com/user-attachments/assets/8bef9c6a-4250-4bea-b203-ae9231f50fda)
 
 
