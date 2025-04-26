@@ -70,6 +70,7 @@ The system is optimized for real-time execution on lightweight and embedded hard
 ## Results:
 ![accuracy_objDet](https://github.com/user-attachments/assets/77551d8b-c304-459d-87f2-abb82c724d87)
 
-![seg_phases](https://github.com/user-attachments/assets/f10c31ba-3bad-4b1a-a45e-017aed590661)
+![image](https://github.com/user-attachments/assets/81734277-d0e5-4f13-acd9-93abedd6acd1)
+
 
 
