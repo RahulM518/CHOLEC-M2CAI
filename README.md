@@ -40,7 +40,7 @@ Both datasets contain pixel-level or bounding-box annotations, and were adapted 
 
 3. **Model Training**  
    - **YOLOv8 Nano (Segmentation head)** used for object/ tool detection  (7 tools)
-   - **UNET+MobileNetV2** and **YOLOv8 Nano (Semantic Segmentation)** used for semantic segmentation (12 parts)
+   - **UNET+MobileNetV2** and **YOLOv8 Medium (Semantic Segmentation)** used for semantic segmentation (12 parts)
    - Both models trained and evaluated separately, with overlays rendered on test video
 
 4. **Video Inference Pipeline**  
@@ -65,3 +65,11 @@ The system is optimized for real-time execution on lightweight and embedded hard
 ## Download of Heavy files:
 
 📥 [Download heavy model and related files (633 MB - 52MB Model, others for test videos and outputs with related jupyter notebook )] (https://github.com/RahulM518/CHOLEC-M2CAI/releases/tag/Segmentation_model_tag/GITHUB__OUTPUT.zip)
+
+
+## Results:
+![Object Detection Tests](![accuracy_objDet](https://github.com/user-attachments/assets/77551d8b-c304-459d-87f2-abb82c724d87))
+
+![Image Segmentation Tests](![seg_perfected](https://github.com/user-attachments/assets/8bef9c6a-4250-4bea-b203-ae9231f50fda))
+
+
