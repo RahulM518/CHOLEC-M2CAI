@@ -1,0 +1,1 @@
+Due to issues with YOLOv8n and YOLOv8m in a FPGA being too big, I went back to a more-supported and well-liked YOLO-v5
