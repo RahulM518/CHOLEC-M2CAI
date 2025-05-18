@@ -76,7 +76,7 @@ The system is optimized for real-time execution on lightweight and embedded hard
   ![final_obj](https://github.com/user-attachments/assets/71d0fce2-cd6b-4e7e-8466-7b4c48f3ae3e)
 
 
-##Updates
+## Updates
  - 18th May 2025 - Added a YOLOv8 seg model (yolov8n), and some onnx models for simplification (YOLOv8, and Resnet-50)
 
 
