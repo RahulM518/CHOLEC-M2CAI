@@ -67,17 +67,10 @@ The system is optimized for real-time execution on lightweight and embedded hard
 📥 [Download heavy model and related files] (https://github.com/RahulM518/CHOLEC-M2CAI/releases/tag/Segmentation_model_tag/GITHUB__OUTPUT.zip)
 
 
-## Results
-
-- **Output of Segmentation**  
-  ![final_seg](https://github.com/user-attachments/assets/25358f2f-8ed4-421d-8466-ababd44a8783)
-
-- **Output of Tool Detection**  
-  ![final_obj](https://github.com/user-attachments/assets/71d0fce2-cd6b-4e7e-8466-7b4c48f3ae3e)
-
-
 ## Updates
  - 18th May 2025 - Added a YOLOv8 seg model (yolov8n), and some onnx models for simplification (YOLOv8, and Resnet-50)
+ - [Link for onnx files](https://iiitbac-my.sharepoint.com/:f:/r/personal/rahul_mukundhan_iiitb_ac_in/Documents/MY_ECE_journey/year_3/sem_6/PE%20-%20MR%20-%20NeuroSurgical%20Videos/Gall_Bladder/ONNX?csf=1&web=1&e=gTDyOz)
+ - pw:hi123
 
 
 
